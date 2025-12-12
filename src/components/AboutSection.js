@@ -1,5 +1,5 @@
 import React from 'react';
-import { 
+import {
   CodeBracketIcon,
   ServerIcon,
   WrenchScrewdriverIcon,
@@ -15,7 +15,7 @@ const AboutSection = () => {
           <h2 className="section-title">About Me</h2>
           <div className="title-underline"></div>
           <p className="section-subtitle">
-            An aspiring B.Tech CS/DS student and a passionate Front-end Developer who loves turning ideas into reality through code.
+            An aspiring B.Tech CS/DS student and a passionate Full Stack Developer who loves turning ideas into reality through code.
           </p>
           <p className="section-subtitle">
             I specialize in building responsive and user-friendly web applications using JavaScript, HTML/CSS, and Python. I'm always curious about how technology can solve real-world problems and make everyday life better.
@@ -66,8 +66,8 @@ const AboutSection = () => {
           <div className="glass-card">
             <div className="stat-card">
               <div className="stat-icon-wrapper yellow-glow">
-                <img 
-                  src="/images/leetcode-icon.png" 
+                <img
+                  src="/images/leetcode-icon.png"
                   alt="LeetCode"
                   className="tech-icon"
                 />
@@ -83,8 +83,8 @@ const AboutSection = () => {
           <div className="glass-card">
             <div className="stat-card">
               <div className="stat-icon-wrapper red-glow">
-                <img 
-                  src="/images/codeforces-icon.png" 
+                <img
+                  src="/images/codeforces-icon.png"
                   alt="Codeforces"
                   className="tech-icon"
                 />
@@ -109,36 +109,44 @@ const AboutSection = () => {
               <h3 className="tech-category">Frontend</h3>
               <div className="tech-items">
                 <div className="tech-item">
-                  <img 
-                    src="/images/html-icon.png" 
-                    alt="HTML" 
+                  <img
+                    src="/images/html-icon.png"
+                    alt="HTML"
                     className="tech-item-icon"
                   />
                   <span className="tech-item-label">HTML</span>
                 </div>
                 <div className="tech-item">
-                  <img 
-                    src="/images/css-icon.png" 
-                    alt="CSS" 
+                  <img
+                    src="/images/css-icon.png"
+                    alt="CSS"
                     className="tech-item-icon"
                   />
                   <span className="tech-item-label">CSS</span>
                 </div>
                 <div className="tech-item">
-                  <img 
-                    src="/images/javascript-icon.png" 
-                    alt="JavaScript" 
+                  <img
+                    src="/images/javascript-icon.png"
+                    alt="JavaScript"
                     className="tech-item-icon"
                   />
                   <span className="tech-item-label">JavaScript</span>
                 </div>
                 <div className="tech-item">
-                  <img 
-                    src="/images/React.png" 
-                    alt="React" 
+                  <img
+                    src="/images/React.png"
+                    alt="React"
                     className="tech-item-icon"
                   />
                   <span className="tech-item-label">React</span>
+                </div>
+                <div className="tech-item">
+                  <img
+                    src="/images/nextjs-icon.png"
+                    alt="Next.js"
+                    className="tech-item-icon"
+                  />
+                  <span className="tech-item-label">Next.js</span>
                 </div>
               </div>
             </div>
@@ -151,38 +159,44 @@ const AboutSection = () => {
               <h3 className="tech-category">Backend</h3>
               <div className="tech-items">
                 <div className="tech-item">
-                  <img 
-                    src="/images/python-icon.png" 
-                    alt="Python" 
+                  <img
+                    src="/images/python-icon.png"
+                    alt="Python"
                     className="tech-item-icon"
                   />
                   <span className="tech-item-label">Python</span>
-                  <div>
-                    <div className="tech-item">
-                      <img 
-                        src="/images/nodejs.png" 
-                        alt="Node.js" 
-                        className="tech-item-icon"
-                      />
-                      <span className="tech-item-label">Node.js</span>
-                    </div>
-                    <div className="tech-item">
-                      <img 
-                        src="/images/express.png" 
-                        alt="Express.js" 
-                        className="tech-item-icon"
-                      />
-                      <span className="tech-item-label">Express.js</span>
-                    </div>
-                  </div>
-                  <div className="tech-item">
-                    <img 
-                      src="/images/mysql.png" 
-                      alt="MySQL" 
-                      className="tech-item-icon"
-                    />
-                    <span className="tech-item-label">MySQL</span>
-                  </div>
+                </div>
+                <div className="tech-item">
+                  <img
+                    src="/images/rust-icon.png"
+                    alt="Rust"
+                    className="tech-item-icon"
+                  />
+                  <span className="tech-item-label">Rust</span>
+                </div>
+                <div className="tech-item">
+                  <img
+                    src="/images/nodejs.png"
+                    alt="Node.js"
+                    className="tech-item-icon"
+                  />
+                  <span className="tech-item-label">Node.js</span>
+                </div>
+                <div className="tech-item">
+                  <img
+                    src="/images/express.png"
+                    alt="Express.js"
+                    className="tech-item-icon"
+                  />
+                  <span className="tech-item-label">Express.js</span>
+                </div>
+                <div className="tech-item">
+                  <img
+                    src="/images/mysql.png"
+                    alt="MySQL"
+                    className="tech-item-icon"
+                  />
+                  <span className="tech-item-label">MySQL</span>
                 </div>
               </div>
             </div>
@@ -195,17 +209,17 @@ const AboutSection = () => {
               <h3 className="tech-category">Tools</h3>
               <div className="tech-items">
                 <div className="tech-item">
-                  <img 
-                    src="/images/git-icon.png" 
-                    alt="Git" 
+                  <img
+                    src="/images/git-icon.png"
+                    alt="Git"
                     className="tech-item-icon"
                   />
                   <span className="tech-item-label">Git</span>
                 </div>
                 <div className="tech-item">
-                  <img 
-                    src="/images/cli-icon.png" 
-                    alt="CLI" 
+                  <img
+                    src="/images/cli-icon.png"
+                    alt="CLI"
                     className="tech-item-icon"
                   />
                   <span className="tech-item-label">CLI</span>
